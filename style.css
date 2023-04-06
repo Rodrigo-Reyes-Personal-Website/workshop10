@@ -33,8 +33,8 @@ h1{
     width: 15%;
     margin-right: 10px;
     background-color: skyblue;
-    justify-content: space-around;
     margin-top: 40px;
+    display: grid;
 }
 
 .secsquare{
@@ -42,17 +42,18 @@ h1{
     width: 15%;
     margin-right: 10px;
     background-color:red;
-    justify-content: space-around;
     margin-top: 40px;
+    display: grid;
 }
 
 .squares {
     margin-top: 20px;
-    height: 10%;
-    width: 40%;
+    height: 30%;
+    width: 20%;
     background-color: whitesmoke;
     box-shadow: 10px 0 rgba(0, 0, 0, 0.1);
     position: sticky;
+    display: grid;
 }
 
 .circle {
