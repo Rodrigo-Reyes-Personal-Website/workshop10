@@ -1,0 +1,112 @@
+body{
+    background-color: brown;
+    padding: 20px;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.background{
+   height: 70vmin;
+   width: 90vmin;
+   background-color: darkgray;
+   position: relative;
+   margin: auto;
+   right: 0;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   border-radius: 5%;
+   display: flex;
+   justify-content: right;
+}
+
+.firstsquare{
+    height: 60%;
+    width: 15%;
+    margin-right: 10px;
+    background-color: skyblue;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.secsquare{
+    height: 60%;
+    width: 15%;
+    margin-right: 10px;
+    background-color:red;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.squares {
+    margin-top: 20px;
+    height: 10%;
+    width: 40%;
+    background-color: whitesmoke;
+    box-shadow: 10px 0 rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
+
+.circle {
+    height: 25%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 20px 0 rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    position: absolute;
+    left:15%;
+    top: 2%;
+    z-index: 0;
+
+}
+
+.circle2 {
+    height: 12%;
+    width: 9%;
+    border-radius: 50%;
+    background-color: rgb(255, 170, 0);
+    position: absolute;
+    left: 21%;
+    top: 8%;
+    z-index: 1;
+}
+
+.circle3 {
+    height: 40%;
+    width: 30%;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 20px 0 rgba(0, 0, 0, 0.1);
+    align-self: flex-start;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    z-index: 0;
+
+}
+
+.circle4 {
+    height: 12%;
+    width: 9%;
+    border-radius: 50%;
+    background-color: rgb(255, 170, 0);
+    align-self: flex-start;
+    position: relative;
+    right: 19%;
+    top: 57%;
+    z-index: 1;
+}
+
+.button{
+ text-align: center;
+ position: sticky;
+}
